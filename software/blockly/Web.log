@@ -1,0 +1,1078 @@
+[06/Dec/2016:17:53:05] ENGINE Listening for SIGTERM.
+[06/Dec/2016:17:53:05] ENGINE Bus STARTING
+[06/Dec/2016:17:53:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:17:53:05] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:17:53:06] ENGINE Serving on http://127.0.0.1:8080
+[06/Dec/2016:17:53:06] ENGINE Bus STARTED
+[06/Dec/2016:17:53:16] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=6dd7f9797ee103bffff545e7b73eba273194bc98
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:17:53:16] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:17:53:23] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=e4284f9de3de0a7b410c3f7cf41605549d997e46
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:17:53:23] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:17:53:38] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/public/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=04a15df0e97fba642204d2405a896e40a9dda7e9
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:17:53:38] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:17:54:19] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=f61c0f678ef103a9dd1693b55f676a8088f431a1
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:17:54:19] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:17:54:54] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=2c7b8f2b4d9c1c12c3c9f753781cc5efd11c8a5d
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:17:54:54] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:12:46] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=fb03348ee666e65156bef23d3fd79a7f5f6678f1
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:12:46] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:12:49]  ""
+[06/Dec/2016:18:13:01]  "012\n"
+[06/Dec/2016:18:13:11]  "011023\n"
+[06/Dec/2016:18:13:42] ENGINE Restarting because C:\source\turtlebot\server\server.py changed.
+[06/Dec/2016:18:13:42] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:18:13:42] ENGINE Bus STOPPING
+[06/Dec/2016:18:13:42] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[06/Dec/2016:18:13:42] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:18:13:42] ENGINE Bus STOPPED
+[06/Dec/2016:18:13:42] ENGINE Bus EXITING
+[06/Dec/2016:18:13:42] ENGINE Bus EXITED
+[06/Dec/2016:18:13:42] ENGINE Waiting for child threads to terminate...
+[06/Dec/2016:18:13:42] ENGINE Re-spawning server.py
+[06/Dec/2016:18:13:42] ENGINE Listening for SIGTERM.
+[06/Dec/2016:18:13:42] ENGINE Bus STARTING
+[06/Dec/2016:18:13:42] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:18:13:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:18:13:43] ENGINE Serving on http://127.0.0.1:8080
+[06/Dec/2016:18:13:43] ENGINE Bus STARTED
+[06/Dec/2016:18:13:46]  "011023\n"
+[06/Dec/2016:18:13:46]  "
+[06/Dec/2016:18:13:48]  "011023\n"
+[06/Dec/2016:18:13:48]  "
+[06/Dec/2016:18:13:54] ENGINE Restarting because C:\source\turtlebot\server\server.py changed.
+[06/Dec/2016:18:13:54] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:18:13:54] ENGINE Bus STOPPING
+[06/Dec/2016:18:13:57] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[06/Dec/2016:18:13:57] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:18:13:57] ENGINE Bus STOPPED
+[06/Dec/2016:18:13:57] ENGINE Bus EXITING
+[06/Dec/2016:18:13:57] ENGINE Bus EXITED
+[06/Dec/2016:18:13:57] ENGINE Waiting for child threads to terminate...
+[06/Dec/2016:18:13:57] ENGINE Re-spawning server.py
+[06/Dec/2016:18:13:57] ENGINE Listening for SIGTERM.
+[06/Dec/2016:18:13:57] ENGINE Bus STARTING
+[06/Dec/2016:18:13:57] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:18:13:57] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:18:13:58] ENGINE Serving on http://127.0.0.1:8080
+[06/Dec/2016:18:13:58] ENGINE Bus STARTED
+[06/Dec/2016:18:13:58] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=0b4b6b2036c75b612e8d6cf99b79eed8d8a85a42
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:13:58] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:14:00]  ""
+[06/Dec/2016:18:14:00]  "
+[06/Dec/2016:18:14:05]  "012\n"
+[06/Dec/2016:18:14:05]  0
+[06/Dec/2016:18:16:37] ENGINE Restarting because C:\source\turtlebot\server\server.py changed.
+[06/Dec/2016:18:16:37] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:18:16:37] ENGINE Bus STOPPING
+[06/Dec/2016:18:16:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[06/Dec/2016:18:16:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:18:16:37] ENGINE Bus STOPPED
+[06/Dec/2016:18:16:37] ENGINE Bus EXITING
+[06/Dec/2016:18:16:37] ENGINE Bus EXITED
+[06/Dec/2016:18:16:37] ENGINE Waiting for child threads to terminate...
+[06/Dec/2016:18:16:37] ENGINE Re-spawning server.py
+[06/Dec/2016:18:16:37] ENGINE Listening for SIGTERM.
+[06/Dec/2016:18:16:37] ENGINE Bus STARTING
+[06/Dec/2016:18:16:37] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:18:16:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:18:16:37] ENGINE Serving on http://127.0.0.1:8080
+[06/Dec/2016:18:16:37] ENGINE Bus STARTED
+[06/Dec/2016:18:16:43]  "012\n"
+[06/Dec/2016:18:16:43]  left
+[06/Dec/2016:18:16:43]  right
+[06/Dec/2016:18:16:43]  beep
+[06/Dec/2016:18:17:20] ENGINE Restarting because C:\source\turtlebot\server\server.py changed.
+[06/Dec/2016:18:17:20] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:18:17:20] ENGINE Bus STOPPING
+[06/Dec/2016:18:17:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[06/Dec/2016:18:17:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:18:17:20] ENGINE Bus STOPPED
+[06/Dec/2016:18:17:20] ENGINE Bus EXITING
+[06/Dec/2016:18:17:20] ENGINE Bus EXITED
+[06/Dec/2016:18:17:20] ENGINE Waiting for child threads to terminate...
+[06/Dec/2016:18:17:20] ENGINE Re-spawning server.py
+[06/Dec/2016:18:17:20] ENGINE Listening for SIGTERM.
+[06/Dec/2016:18:17:20] ENGINE Bus STARTING
+[06/Dec/2016:18:17:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:18:17:20] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:18:17:20] ENGINE Serving on http://127.0.0.1:8080
+[06/Dec/2016:18:17:20] ENGINE Bus STARTED
+[06/Dec/2016:18:17:24]  "012\n"
+[06/Dec/2016:18:17:29]  "012\n"
+[06/Dec/2016:18:17:52] ENGINE Restarting because C:\source\turtlebot\server\server.py changed.
+[06/Dec/2016:18:17:52] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:18:17:52] ENGINE Bus STOPPING
+[06/Dec/2016:18:17:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[06/Dec/2016:18:17:53] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:18:17:53] ENGINE Bus STOPPED
+[06/Dec/2016:18:17:53] ENGINE Bus EXITING
+[06/Dec/2016:18:17:53] ENGINE Bus EXITED
+[06/Dec/2016:18:17:53] ENGINE Waiting for child threads to terminate...
+[06/Dec/2016:18:17:53] ENGINE Re-spawning server.py
+[06/Dec/2016:18:17:53] ENGINE Listening for SIGTERM.
+[06/Dec/2016:18:17:53] ENGINE Bus STARTING
+[06/Dec/2016:18:17:53] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:18:17:53] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:18:17:53] ENGINE Serving on http://127.0.0.1:8080
+[06/Dec/2016:18:17:53] ENGINE Bus STARTED
+[06/Dec/2016:18:17:55]  "012\n"
+[06/Dec/2016:18:17:55]  0
+[06/Dec/2016:18:17:55]  1
+[06/Dec/2016:18:17:55]  2
+[06/Dec/2016:18:17:55]  \
+[06/Dec/2016:18:17:55]  n
+[06/Dec/2016:18:18:16] ENGINE Restarting because C:\source\turtlebot\server\server.py changed.
+[06/Dec/2016:18:18:16] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:18:18:16] ENGINE Bus STOPPING
+[06/Dec/2016:18:18:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[06/Dec/2016:18:18:16] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:18:18:16] ENGINE Bus STOPPED
+[06/Dec/2016:18:18:16] ENGINE Bus EXITING
+[06/Dec/2016:18:18:16] ENGINE Bus EXITED
+[06/Dec/2016:18:18:16] ENGINE Waiting for child threads to terminate...
+[06/Dec/2016:18:18:16] ENGINE Re-spawning server.py
+[06/Dec/2016:18:18:17] ENGINE Listening for SIGTERM.
+[06/Dec/2016:18:18:17] ENGINE Bus STARTING
+[06/Dec/2016:18:18:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:18:18:17] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:18:18:17] ENGINE Serving on http://127.0.0.1:8080
+[06/Dec/2016:18:18:17] ENGINE Bus STARTED
+[06/Dec/2016:18:18:19]  "012\n"
+[06/Dec/2016:18:18:19]  0
+[06/Dec/2016:18:18:19]  forward
+[06/Dec/2016:18:18:19]  1
+[06/Dec/2016:18:18:19]  left
+[06/Dec/2016:18:18:19]  2
+[06/Dec/2016:18:18:19]  right
+[06/Dec/2016:18:18:19]  \
+[06/Dec/2016:18:18:19]  n
+[06/Dec/2016:18:18:24]  "0123\n"
+[06/Dec/2016:18:18:24]  0
+[06/Dec/2016:18:18:24]  forward
+[06/Dec/2016:18:18:24]  1
+[06/Dec/2016:18:18:24]  left
+[06/Dec/2016:18:18:24]  2
+[06/Dec/2016:18:18:24]  right
+[06/Dec/2016:18:18:24]  3
+[06/Dec/2016:18:18:24]  beep
+[06/Dec/2016:18:18:24]  \
+[06/Dec/2016:18:18:24]  n
+[06/Dec/2016:18:18:40]  "30123\n"
+[06/Dec/2016:18:18:40]  3
+[06/Dec/2016:18:18:40]  beep
+[06/Dec/2016:18:18:40]  0
+[06/Dec/2016:18:18:40]  forward
+[06/Dec/2016:18:18:40]  1
+[06/Dec/2016:18:18:40]  left
+[06/Dec/2016:18:18:40]  2
+[06/Dec/2016:18:18:40]  right
+[06/Dec/2016:18:18:40]  3
+[06/Dec/2016:18:18:40]  beep
+[06/Dec/2016:18:18:40]  \
+[06/Dec/2016:18:18:40]  n
+[06/Dec/2016:18:19:04]  "30123\n"
+[06/Dec/2016:18:19:04]  3
+[06/Dec/2016:18:19:04]  beep
+[06/Dec/2016:18:19:04]  0
+[06/Dec/2016:18:19:04]  forward
+[06/Dec/2016:18:19:04]  1
+[06/Dec/2016:18:19:04]  left
+[06/Dec/2016:18:19:04]  2
+[06/Dec/2016:18:19:04]  right
+[06/Dec/2016:18:19:04]  3
+[06/Dec/2016:18:19:04]  beep
+[06/Dec/2016:18:19:04]  \
+[06/Dec/2016:18:19:04]  n
+[06/Dec/2016:18:20:38] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=3ec263f0df0a29a1f4323658b9ac8381ba1fc3b0
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:20:38] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:20:56] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=1bf367d67c8dbd7267e6ab777b03df80feac5e22
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:20:56] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:21:06] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=8b53b5d92452d30797c4dc4373f2a3fca20db7b3
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:21:06] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:21:57] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=3ce213759c53707a5053b35035e7cd2938ad2228
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:21:57] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:22:13] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=4be486042411f51889cbb7882f955cfcbfe7282d
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:22:13] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:22:30] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=8c6c9fb811423986f33d25c3e0d2028896265024
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:22:30] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:22:43]  ""
+[06/Dec/2016:18:22:44]  ""
+[06/Dec/2016:18:22:45]  ""
+[06/Dec/2016:18:22:52] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=457c955716e3d04decc6f3e12f268193bf420b3d
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:22:52] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:22:58]  "012\n"
+[06/Dec/2016:18:22:58]  0
+[06/Dec/2016:18:22:58]  forward
+[06/Dec/2016:18:22:58]  1
+[06/Dec/2016:18:22:58]  left
+[06/Dec/2016:18:22:58]  2
+[06/Dec/2016:18:22:58]  right
+[06/Dec/2016:18:22:58]  \
+[06/Dec/2016:18:22:58]  n
+[06/Dec/2016:18:23:03]  "0123\n"
+[06/Dec/2016:18:23:03]  0
+[06/Dec/2016:18:23:03]  forward
+[06/Dec/2016:18:23:03]  1
+[06/Dec/2016:18:23:03]  left
+[06/Dec/2016:18:23:03]  2
+[06/Dec/2016:18:23:03]  right
+[06/Dec/2016:18:23:03]  3
+[06/Dec/2016:18:23:03]  beep
+[06/Dec/2016:18:23:03]  \
+[06/Dec/2016:18:23:03]  n
+[06/Dec/2016:18:23:19] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=ec7383526f97aecdacc4404e483031d4811eec36
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:23:19] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:23:25]  "012\n"
+[06/Dec/2016:18:23:25]  0
+[06/Dec/2016:18:23:25]  forward
+[06/Dec/2016:18:23:25]  1
+[06/Dec/2016:18:23:25]  left
+[06/Dec/2016:18:23:25]  2
+[06/Dec/2016:18:23:25]  right
+[06/Dec/2016:18:23:25]  \
+[06/Dec/2016:18:23:25]  n
+[06/Dec/2016:18:23:32]  "012\n"
+[06/Dec/2016:18:23:32]  0
+[06/Dec/2016:18:23:32]  forward
+[06/Dec/2016:18:23:32]  1
+[06/Dec/2016:18:23:32]  left
+[06/Dec/2016:18:23:32]  2
+[06/Dec/2016:18:23:32]  right
+[06/Dec/2016:18:23:32]  \
+[06/Dec/2016:18:23:32]  n
+[06/Dec/2016:18:23:40]  "012\n"
+[06/Dec/2016:18:23:40]  0
+[06/Dec/2016:18:23:40]  forward
+[06/Dec/2016:18:23:40]  1
+[06/Dec/2016:18:23:40]  left
+[06/Dec/2016:18:23:40]  2
+[06/Dec/2016:18:23:40]  right
+[06/Dec/2016:18:23:40]  \
+[06/Dec/2016:18:23:40]  n
+[06/Dec/2016:18:23:49]  "01203\n"
+[06/Dec/2016:18:23:49]  0
+[06/Dec/2016:18:23:49]  forward
+[06/Dec/2016:18:23:49]  1
+[06/Dec/2016:18:23:49]  left
+[06/Dec/2016:18:23:49]  2
+[06/Dec/2016:18:23:49]  right
+[06/Dec/2016:18:23:49]  0
+[06/Dec/2016:18:23:49]  forward
+[06/Dec/2016:18:23:49]  3
+[06/Dec/2016:18:23:49]  beep
+[06/Dec/2016:18:23:49]  \
+[06/Dec/2016:18:23:49]  n
+[06/Dec/2016:18:24:27]  "201203\n"
+[06/Dec/2016:18:24:27]  2
+[06/Dec/2016:18:24:27]  right
+[06/Dec/2016:18:24:27]  0
+[06/Dec/2016:18:24:27]  forward
+[06/Dec/2016:18:24:27]  1
+[06/Dec/2016:18:24:27]  left
+[06/Dec/2016:18:24:27]  2
+[06/Dec/2016:18:24:27]  right
+[06/Dec/2016:18:24:27]  0
+[06/Dec/2016:18:24:27]  forward
+[06/Dec/2016:18:24:27]  3
+[06/Dec/2016:18:24:27]  beep
+[06/Dec/2016:18:24:27]  \
+[06/Dec/2016:18:24:27]  n
+[06/Dec/2016:18:24:52] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=0a5b26c2374a427efb4b3519d787a8bf9b8352cd
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:24:52] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:25:02] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=acd767455e99c27a790db35eed27054d9502bea8
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:25:02] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:25:39] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=6f243d2e2ff037ba46cdda1aa7bb078814012adb
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:25:39] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:28:37] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=aff8eae7b91262a89ec02cd9f40e69eb9cd65cae
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:28:37] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:29:54] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=94b4d3c4c19b7cefbbf6a9c1d1e920b8c0f7cf4f
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:29:54] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:33:50] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=b75e97dcc731b81ac05444b5a523c9e4b331482b
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:33:50] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:34:04] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=2cdb30fb6af2841336024421afbdf57c9989e08c
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:34:04] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:34:20] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/static/code.html
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+  COOKIE: session_id=05199860831877bc73e07bd301772c7e029de791
+  ACCEPT-LANGUAGE: en-US,en;q=0.8,af;q=0.6,nl;q=0.4
+  ACCEPT-ENCODING: gzip, deflate, sdch, br
+[06/Dec/2016:18:34:20] HTTP 
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\cherrypy\_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "C:\Python27\lib\site-packages\cherrypy\lib\encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "C:\Python27\lib\site-packages\cherrypy\_cptools.py", line 175, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:18:34:25]  ""
+[06/Dec/2016:18:34:33]  "0123\n"
+[06/Dec/2016:18:34:33]  0
+[06/Dec/2016:18:34:33]  forward
+[06/Dec/2016:18:34:33]  1
+[06/Dec/2016:18:34:33]  left
+[06/Dec/2016:18:34:33]  2
+[06/Dec/2016:18:34:33]  right
+[06/Dec/2016:18:34:33]  3
+[06/Dec/2016:18:34:33]  beep
+[06/Dec/2016:18:34:33]  \
+[06/Dec/2016:18:34:33]  n
+[06/Dec/2016:18:35:15]  "22013\n"
+[06/Dec/2016:18:35:15]  2
+[06/Dec/2016:18:35:15]  right
+[06/Dec/2016:18:35:15]  2
+[06/Dec/2016:18:35:15]  right
+[06/Dec/2016:18:35:15]  0
+[06/Dec/2016:18:35:15]  forward
+[06/Dec/2016:18:35:15]  1
+[06/Dec/2016:18:35:15]  left
+[06/Dec/2016:18:35:15]  3
+[06/Dec/2016:18:35:15]  beep
+[06/Dec/2016:18:35:15]  \
+[06/Dec/2016:18:35:15]  n
+[06/Dec/2016:18:36:41]  "02013\n"
+[06/Dec/2016:18:36:41]  0
+[06/Dec/2016:18:36:41]  forward
+[06/Dec/2016:18:36:41]  2
+[06/Dec/2016:18:36:41]  right
+[06/Dec/2016:18:36:41]  0
+[06/Dec/2016:18:36:41]  forward
+[06/Dec/2016:18:36:41]  1
+[06/Dec/2016:18:36:41]  left
+[06/Dec/2016:18:36:41]  3
+[06/Dec/2016:18:36:41]  beep
+[06/Dec/2016:18:36:41]  \
+[06/Dec/2016:18:36:41]  n
+[06/Dec/2016:18:39:41] ENGINE Keyboard Interrupt: shutting down bus
+[06/Dec/2016:18:39:41] ENGINE Bus STOPPING
+[06/Dec/2016:18:39:41] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[06/Dec/2016:18:39:41] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:18:39:41] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:18:39:41] ENGINE Bus STOPPED
+[06/Dec/2016:18:39:41] ENGINE Bus EXITING
+[06/Dec/2016:18:39:41] ENGINE Bus EXITED
+[06/Dec/2016:18:39:41] ENGINE Waiting for child threads to terminate...
+[06/Dec/2016:19:09:08] ENGINE Listening for SIGHUP.
+[06/Dec/2016:19:09:08] ENGINE Listening for SIGTERM.
+[06/Dec/2016:19:09:08] ENGINE Listening for SIGUSR1.
+[06/Dec/2016:19:09:08] ENGINE Bus STARTING
+[06/Dec/2016:19:09:08] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:19:09:08] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:19:09:13] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x76320df0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 207, in publish
+    output.append(listener(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpserver.py", line 168, in start
+    ServerAdapter.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/servers.py", line 172, in start
+    wait_for_free_port(*self.bind_addr)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/servers.py", line 443, in wait_for_free_port
+    raise IOError('Port %r not free on %r' % (port, host))
+IOError: Port 8080 not free on '127.0.0.1'
+
+[06/Dec/2016:19:09:13] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 245, in start
+    self.publish('start')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 225, in publish
+    raise exc
+ChannelFailures: IOError("Port 8080 not free on '127.0.0.1'",)
+
+[06/Dec/2016:19:09:13] ENGINE Bus STOPPING
+[06/Dec/2016:19:09:13] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) already shut down
+[06/Dec/2016:19:09:13] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:19:09:13] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:19:09:13] ENGINE Bus STOPPED
+[06/Dec/2016:19:09:13] ENGINE Bus EXITING
+[06/Dec/2016:19:09:13] ENGINE Bus EXITED
+[06/Dec/2016:19:10:02] ENGINE Listening for SIGHUP.
+[06/Dec/2016:19:10:02] ENGINE Listening for SIGTERM.
+[06/Dec/2016:19:10:02] ENGINE Listening for SIGUSR1.
+[06/Dec/2016:19:10:02] ENGINE Bus STARTING
+[06/Dec/2016:19:10:02] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:19:10:02] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:19:10:07] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x76344df0>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 207, in publish
+    output.append(listener(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpserver.py", line 168, in start
+    ServerAdapter.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/servers.py", line 172, in start
+    wait_for_free_port(*self.bind_addr)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/servers.py", line 443, in wait_for_free_port
+    raise IOError('Port %r not free on %r' % (port, host))
+IOError: Port 8080 not free on '127.0.0.1'
+
+[06/Dec/2016:19:10:07] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 245, in start
+    self.publish('start')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 225, in publish
+    raise exc
+ChannelFailures: IOError("Port 8080 not free on '127.0.0.1'",)
+
+[06/Dec/2016:19:10:07] ENGINE Bus STOPPING
+[06/Dec/2016:19:10:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) already shut down
+[06/Dec/2016:19:10:07] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:19:10:07] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:19:10:07] ENGINE Bus STOPPED
+[06/Dec/2016:19:10:07] ENGINE Bus EXITING
+[06/Dec/2016:19:10:07] ENGINE Bus EXITED
+[06/Dec/2016:19:11:24] ENGINE Listening for SIGHUP.
+[06/Dec/2016:19:11:24] ENGINE Listening for SIGTERM.
+[06/Dec/2016:19:11:24] ENGINE Listening for SIGUSR1.
+[06/Dec/2016:19:11:24] ENGINE Bus STARTING
+[06/Dec/2016:19:11:24] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:19:11:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:19:11:24] ENGINE Serving on http://127.0.0.1:7077
+[06/Dec/2016:19:11:24] ENGINE Bus STARTED
+[06/Dec/2016:19:12:32] HTTP 
+Request Headers:
+  REFERER: http://localhost:7077/static/code.html
+  HOST: localhost:7077
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.91 Safari/537.36
+  COOKIE: session_id=8f217fab1ee042e724d43ed06665061fa0f81e6d
+  ACCEPT-LANGUAGE: en-GB,en-US;q=0.8,en;q=0.6
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[06/Dec/2016:19:12:32] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/encoding.py", line 220, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cptools.py", line 182, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:19:12:43] HTTP 
+Request Headers:
+  REFERER: http://localhost:7077/static/code.html
+  HOST: localhost:7077
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.91 Safari/537.36
+  COOKIE: session_id=c61e06f071aba0c6cf2ce969c90a858ee886a680
+  ACCEPT-LANGUAGE: en-GB,en-US;q=0.8,en;q=0.6
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[06/Dec/2016:19:12:43] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/encoding.py", line 220, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cptools.py", line 182, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:19:12:54]  "0123\n"
+[06/Dec/2016:19:12:54]  0
+[06/Dec/2016:19:12:54]  forward
+[06/Dec/2016:19:12:54]  1
+[06/Dec/2016:19:12:54]  left
+[06/Dec/2016:19:12:54]  2
+[06/Dec/2016:19:12:54]  right
+[06/Dec/2016:19:12:54]  3
+[06/Dec/2016:19:12:54]  beep
+[06/Dec/2016:19:12:54]  \
+[06/Dec/2016:19:12:54]  n
+[06/Dec/2016:19:13:15] ENGINE Keyboard Interrupt: shutting down bus
+[06/Dec/2016:19:13:15] ENGINE Bus STOPPING
+[06/Dec/2016:19:13:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7077)) shut down
+[06/Dec/2016:19:13:15] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:19:13:15] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:19:13:15] ENGINE Bus STOPPED
+[06/Dec/2016:19:13:15] ENGINE Bus EXITING
+[06/Dec/2016:19:13:15] ENGINE Bus EXITED
+[06/Dec/2016:19:13:15] ENGINE Waiting for child threads to terminate...
+[06/Dec/2016:19:15:26] ENGINE Listening for SIGHUP.
+[06/Dec/2016:19:15:26] ENGINE Listening for SIGTERM.
+[06/Dec/2016:19:15:26] ENGINE Listening for SIGUSR1.
+[06/Dec/2016:19:15:26] ENGINE Bus STARTING
+[06/Dec/2016:19:15:26] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:19:15:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:19:15:26] ENGINE Serving on http://127.0.0.1:7077
+[06/Dec/2016:19:15:26] ENGINE Bus STARTED
+[06/Dec/2016:19:15:28] ENGINE Restarting because /home/pi/turtlebot/server/server.py changed.
+[06/Dec/2016:19:15:28] ENGINE Stopped thread 'Autoreloader'.
+[06/Dec/2016:19:15:28] ENGINE Bus STOPPING
+[06/Dec/2016:19:15:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7077)) shut down
+[06/Dec/2016:19:15:28] ENGINE Stopped thread '_TimeoutMonitor'.
+[06/Dec/2016:19:15:28] ENGINE Bus STOPPED
+[06/Dec/2016:19:15:28] ENGINE Bus EXITING
+[06/Dec/2016:19:15:28] ENGINE Bus EXITED
+[06/Dec/2016:19:15:28] ENGINE Waiting for child threads to terminate...
+[06/Dec/2016:19:15:28] ENGINE Re-spawning python server.py
+[06/Dec/2016:19:18:26] ENGINE Listening for SIGHUP.
+[06/Dec/2016:19:18:26] ENGINE Listening for SIGTERM.
+[06/Dec/2016:19:18:26] ENGINE Listening for SIGUSR1.
+[06/Dec/2016:19:18:26] ENGINE Bus STARTING
+[06/Dec/2016:19:18:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[06/Dec/2016:19:18:26] ENGINE Started monitor thread 'Autoreloader'.
+[06/Dec/2016:19:18:26] ENGINE Serving on http://127.0.0.1:7077
+[06/Dec/2016:19:18:26] ENGINE Bus STARTED
+[06/Dec/2016:19:18:39] HTTP 
+Request Headers:
+  REFERER: http://localhost:7077/static/code.html
+  HOST: localhost:7077
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.91 Safari/537.36
+  COOKIE: session_id=677a3c61759a1512392966775c09c184c94df13a
+  ACCEPT-LANGUAGE: en-GB,en-US;q=0.8,en;q=0.6
+  ACCEPT-ENCODING: gzip, deflate, sdch
+[06/Dec/2016:19:18:40] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/lib/encoding.py", line 220, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cptools.py", line 182, in handle_func
+    handled = self.callable(*args, **self._merged_args(kwargs))
+TypeError: staticfile() got multiple values for keyword argument 'filename'
+[06/Dec/2016:19:18:47]  "123\n"
+[06/Dec/2016:19:18:47]  1
+[06/Dec/2016:19:18:47]  left
+[06/Dec/2016:19:18:50]  2
+[06/Dec/2016:19:18:50]  right
+[06/Dec/2016:19:18:54]  3
+[06/Dec/2016:19:18:54]  beep
+[06/Dec/2016:19:18:56]  \
+[06/Dec/2016:19:18:56]  n
+[06/Dec/2016:19:19:48]  "1213\n"
+[06/Dec/2016:19:19:48]  1
+[06/Dec/2016:19:19:48]  left
+[06/Dec/2016:19:19:51]  2
+[06/Dec/2016:19:19:51]  right
+[06/Dec/2016:19:19:54]  1
+[06/Dec/2016:19:19:54]  left
+[06/Dec/2016:19:19:58]  3
+[06/Dec/2016:19:19:58]  beep
+[06/Dec/2016:19:19:59]  \
+[06/Dec/2016:19:19:59]  n
+[06/Dec/2016:19:20:42]  "0123\n"
+[06/Dec/2016:19:20:42]  0
+[06/Dec/2016:19:20:42]  forward
+[06/Dec/2016:19:20:46]  1
+[06/Dec/2016:19:20:46]  left
+[06/Dec/2016:19:20:49]  2
+[06/Dec/2016:19:20:49]  right
+[06/Dec/2016:19:20:53]  3
+[06/Dec/2016:19:20:53]  beep
+[06/Dec/2016:19:20:55]  \
+[06/Dec/2016:19:20:55]  n
+[06/Dec/2016:19:21:08]  "3123\n"
+[06/Dec/2016:19:21:08]  3
+[06/Dec/2016:19:21:08]  beep
+[06/Dec/2016:19:21:08]  1
+[06/Dec/2016:19:21:08]  left
+[06/Dec/2016:19:21:12]  2
+[06/Dec/2016:19:21:12]  right
+[06/Dec/2016:19:21:16]  3
+[06/Dec/2016:19:21:16]  beep
+[06/Dec/2016:19:21:17]  \
+[06/Dec/2016:19:21:17]  n
+[06/Dec/2016:19:23:24]  "011023\n"
+[06/Dec/2016:19:23:24]  0
+[06/Dec/2016:19:23:24]  forward
+[06/Dec/2016:19:23:28]  1
+[06/Dec/2016:19:23:28]  left
+[06/Dec/2016:19:23:31]  1
+[06/Dec/2016:19:23:31]  left
+[06/Dec/2016:19:23:35]  0
+[06/Dec/2016:19:23:35]  forward
+[06/Dec/2016:19:23:40]  2
+[06/Dec/2016:19:23:40]  right
+[06/Dec/2016:19:23:44]  3
+[06/Dec/2016:19:23:44]  beep
+[06/Dec/2016:19:23:45]  \
+[06/Dec/2016:19:23:45]  n
+[07/Dec/2016:05:07:30] ENGINE Listening for SIGHUP.
+[07/Dec/2016:05:07:30] ENGINE Listening for SIGTERM.
+[07/Dec/2016:05:07:30] ENGINE Listening for SIGUSR1.
+[07/Dec/2016:05:07:30] ENGINE Bus STARTING
+[07/Dec/2016:05:07:30] ENGINE Started monitor thread 'Autoreloader'.
+[07/Dec/2016:05:07:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[07/Dec/2016:05:07:35] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x762a1030>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 207, in publish
+    output.append(listener(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/_cpserver.py", line 168, in start
+    ServerAdapter.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/servers.py", line 172, in start
+    wait_for_free_port(*self.bind_addr)
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/servers.py", line 443, in wait_for_free_port
+    raise IOError('Port %r not free on %r' % (port, host))
+IOError: Port 7077 not free on '127.0.0.1'
+
+[07/Dec/2016:05:07:35] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 245, in start
+    self.publish('start')
+  File "/usr/local/lib/python2.7/dist-packages/cherrypy/process/wspbus.py", line 225, in publish
+    raise exc
+ChannelFailures: IOError("Port 7077 not free on '127.0.0.1'",)
+
+[07/Dec/2016:05:07:35] ENGINE Bus STOPPING
+[07/Dec/2016:05:07:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 7077)) already shut down
+[07/Dec/2016:05:07:35] ENGINE Stopped thread '_TimeoutMonitor'.
+[07/Dec/2016:05:07:35] ENGINE Stopped thread 'Autoreloader'.
+[07/Dec/2016:05:07:35] ENGINE Bus STOPPED
+[07/Dec/2016:05:07:35] ENGINE Bus EXITING
+[07/Dec/2016:05:07:35] ENGINE Bus EXITED

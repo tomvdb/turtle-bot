@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Turtle Bot Coding</title>
+  <script src="blockly_compressed.js"></script>
+  <script src="blocks_compressed.js"></script>
+  <script src="edubot_compressed.js"></script>
+  <script src="msg/js/en.js"></script>
+  <style>
+      html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      background-color: #fff;
+      font-family: sans-serif;
+      overflow: hidden;
+    }
+    h1 {
+      font-weight: normal;
+      font-size: 140%;
+    }
+    table {
+      height: 100%;
+      width: 100%;
+    }
+    #blocklyArea {
+      height: 99%;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>
+      <image src = 'logo2.png'  align='left'>
+      <image src = 'go.png' width = '120' onclick="showCode()" align='right'>
+      
+
+      </td>
+    </tr>
+    <tr>
+      <td id="blocklyArea">
+      </td>
+    </tr>
+  </table>
+
+
+  <div id="blocklyDiv" style="position: absolute"></div>
+
+<xml id="toolbox" style="display: none">
+      <block type="turtlebot_forward"></block>    
+      <block type="turtlebot_left"></block>    
+      <block type="turtlebot_right"></block>    
+      <block type="turtlebot_beep"></block>    
+
+  </xml>
+
+
+  <script>
+  
+  
+     var blocklyArea = document.getElementById('blocklyArea');
+    var blocklyDiv = document.getElementById('blocklyDiv');
+    var workspace = Blockly.inject(blocklyDiv,
+        {media: 'media/',
+         toolbox: document.getElementById('toolbox')});
+    var onresize = function(e) {
+      // Compute the absolute coordinates and dimensions of blocklyArea.
+      var element = blocklyArea;
+      var x = 0;
+      var y = 0;
+      do {
+        x += element.offsetLeft;
+        y += element.offsetTop;
+        element = element.offsetParent;
+      } while (element);
+      // Position blocklyDiv over blocklyArea.
+      blocklyDiv.style.left = x + 'px';
+      blocklyDiv.style.top = y + 'px';
+      blocklyDiv.style.width = blocklyArea.offsetWidth + 'px';
+      blocklyDiv.style.height = blocklyArea.offsetHeight + 'px';
+    };
+    window.addEventListener('resize', onresize, false);
+    onresize();
+
+String.prototype.escapeSpecialChars = function() {
+    return this.replace(/\\n/g, "\\n")
+               .replace(/\\'/g, "\\'")
+               .replace(/\\"/g, '\\"')
+               .replace(/\\&/g, "\\&")
+               .replace(/\\r/g, "\\r")
+               .replace(/\\t/g, "\\t")
+               .replace(/\\b/g, "\\b")
+               .replace(/\\f/g, "\\f")
+	       .replace(/\\=/g, "\\=");
+};
+
+    function showCode() {
+      // Generate JavaScript code and display it.
+      var codetext = Blockly.Edubot.workspaceToCode(workspace);
+      //alert(code);
+      var xhttp;
+      xhttp = new XMLHttpRequest();
+      xhttp.open("POST","../displaycode", true);
+      xhttp.setRequestHeader("Content-type", "application/json");
+      var stringobject = "code=" + codetext;
+      jsoncode = JSON.stringify( codetext )
+      //alert(jsoncode);
+      xhttp.send( jsoncode );      
+    }
+    
+function download(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+
+function readSingleFile(e) {
+  var file = e.target.files[0];
+  if (!file) {
+    return;
+  }
+  var reader = new FileReader();
+  reader.onload = function(e) {
+    var contents = e.target.result;
+    //displayContents(contents);
+    
+	var xml = Blockly.Xml.textToDom(contents);
+	Blockly.Xml.domToWorkspace(Blockly.mainWorkspace, xml);    
+    
+  };
+  reader.readAsText(file);
+}
+
+
+function dlblockly()
+    {
+	var xml = Blockly.Xml.workspaceToDom(workspace);
+	var xml_text = Blockly.Xml.domToText(xml);
+	download( "bennyapp.xml", xml_text);
+    }
+
+    function runCode() {
+      // Generate JavaScript code and run it.
+      window.LoopTrap = 1000;
+      var code = Blockly.JavaScript.workspaceToCode(workspace);
+      Blockly.JavaScript.INFINITE_LOOP_TRAP = null;
+      try {
+        eval(code);
+      } catch (e) {
+        alert(e);
+      }
+    }
+  </script>
+
+</body>
+</html>
